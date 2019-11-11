@@ -1,0 +1,120 @@
+h1{
+    display: flex;
+    background-color: blueviolet;
+    justify-content: center;
+    padding: 25px;
+    margin: 0px;
+    width: 100%;
+    font-family: 'Yeon Sung', cursive;
+    color: white;
+}
+
+#jogadas{
+    width:300px;
+ margin-left:40px;
+ padding-left:0px;
+}
+
+#bt{
+    margin-left:50px;
+}
+
+.letra, .ler{
+    font-size:30px;
+ margin-left:10px;
+ border:none;
+ border-bottom:1px solid #000;
+ background-color:#fff;
+ outline:none;   
+ width:0px;
+}
+
+  /*desenho*/
+  #cabeça{
+    width:60px;
+ height:60px;
+ border:6px solid #000;
+ border-radius:50%;
+}
+
+#tronco{
+    position:absolute;
+    width:3px;
+ height:80px;
+ border:2px solid #000;
+ margin-left:31px;
+ background-color:#000;
+}
+
+#braco_direito{
+    position:absolute;
+    width:0px;
+ background-color:#000;
+ height:45px;
+ border:3px solid #000;
+ transform:rotate(-45deg);
+ margin-left:50px;
+}
+
+#braco_esquerdo{
+    position:absolute;
+    width:0px;
+ background-color:#000;
+ height:45px;
+ border:3px solid #000;
+ transform:rotate(45deg);
+ margin-left:12px;
+}
+
+#perna_esquerda{
+    position:absolute;
+    width:0px;
+ background-color:#000;
+ height:45px;
+ border:3px solid #000;
+ transform:rotate(45deg);
+ margin:72px 0px 0px 12px;
+}
+
+#perna_direita{
+    width:0px;
+ background-color:#000;
+ height:45px;
+ border:3px solid #000;
+ transform:rotate(-45deg);
+ margin:72px 0px 0px 50px;
+}
+
+#olho_esquerdo{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    width: 5px;
+    background-color: red;
+ height: 5px;
+ border:3px solid red;
+ transform:rotate(45deg);
+ margin-left:12px;
+ border-radius: 50%;
+ margin:72px 0px 0px 12px;
+
+}
+
+#olho_direito{
+    position: relative;
+    top: -250px;
+    left: 10px;
+    width: 5px;
+    background-color: red;
+ height: 5px;
+ border:3px solid red;
+ transform:rotate(45deg);
+ margin-left:12px;
+ border-radius: 50%;
+ margin:72px 0px 0px 50px;
+
+    
+}
+
+
+
